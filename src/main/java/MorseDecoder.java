@@ -35,7 +35,7 @@ public class MorseDecoder {
 
     /**
      * Compute power measurements for fixed-size bins of WAV samples.
-     * <p>
+     * <p>https://github.com/cmaroju2/Lab8.git
      * We have started this function for you. You should finish it.
      *
      * @param inputFile the input file to process
@@ -54,6 +54,7 @@ public class MorseDecoder {
 
         double[] sampleBuffer = new double[BIN_SIZE * inputFile.getNumChannels()];
         for (int binIndex = 0; binIndex < totalBinCount; binIndex++) {
+
             // Get the right number of samples from the inputFile
             // Sum all the samples together and store them in the returnBuffer
         }
